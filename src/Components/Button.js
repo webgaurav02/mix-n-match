@@ -11,7 +11,7 @@ const Button = (props) => {
             passHref
             className="lg:text-center text-left mb-2"
         >
-            <button role="button" className=" btn py-1.5 pt-2">
+            <button role="button" className=" btn py-2 pt-2">
                 <span>Book Now</span>
                 <span className="arrow-container">
                     <Image priority src={arrow} alt="Arrow" />
