@@ -1,3 +1,19 @@
+.home-page{
+    background-color: black;
+    min-height: 100svh;
+    background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.0)
+    ),
+    url(../../public/chi.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    overflow: hidden;
+}
+
 .poster{
     min-width: 55vw;
 }
@@ -8,6 +24,23 @@
 
 .about p{
     line-height: 180%;
+}
+
+.PaymentButton.svelte-ekc7fv.svelte-ekc7fv{
+    width: 14rem !important;
+    border-radius: 5px;
+}
+
+.PaymentButton--dark.svelte-ekc7fv.svelte-ekc7fv{
+    background-color: #560D80 !important;
+}
+
+.PaymentButton--dark.svelte-ekc7fv.svelte-ekc7fv{
+    color: #FFDF01 !important;
+}
+
+#paymentForm{
+    text-align: center;
 }
 
 @media only screen and (max-width: 768px) {
