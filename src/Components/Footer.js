@@ -7,7 +7,7 @@ import Link from 'next/link';
 import facebook from "../../public/Facebook_black.svg"
 import instagram from "../../public/Instagram_black.svg"
 import linkedIn from "../../public/LinkedIN_black.svg"
-import whatsapp from "../../public/Whatsapp_black.svg"
+// import whatsapp from "../../public/Whatsapp_black.svg"
 
 
 const Footer = () => {
@@ -71,7 +71,7 @@ const Footer = () => {
                                 className='socials'
                             />
                         </Link>
-                        <Link href="https://wa.me/918787740538?text=Hi%20Onlybees!" rel="noopener noreferrer" target="_blank">
+                        {/* <Link href="https://wa.me/918787740538?text=Hi%20Onlybees!" rel="noopener noreferrer" target="_blank">
                             <Image 
                                 src={whatsapp}
                                 width={25}
@@ -79,7 +79,7 @@ const Footer = () => {
                                 alt='social logo'
                                 className='socials'
                             />
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
             </div>
