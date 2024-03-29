@@ -7,6 +7,7 @@ import "./styles.css"
 
 import Navbar from "../Components/Navbar";
 import Button from "../Components/Button";
+import Footer from "../Components/Footer";
 import Image from "next/image";
 import posterDesktop from "../../public/hoot_desktop.png";
 import posterMobile from "../../public/hoot_mobile.png";
@@ -98,6 +99,7 @@ export default function Home() {
         </div>
 
       </div>
+      <Footer />
     </>
   );
 }
