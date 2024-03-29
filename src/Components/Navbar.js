@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const Navbar = () => {
     return (
-        <div className="nav lg:mx-10 py-7 mx-5">
+        <div className='nav lg:mx-10 py-7 mx-5'>
             <Image
                 src={logo}
                 width={150}
