@@ -7,7 +7,7 @@ const Button = (props) => {
     return (
         <Link
             href={props.link}
-            target="_blank"
+            // target="_blank"
             passHref
             className="lg:text-center text-left mb-2"
         >

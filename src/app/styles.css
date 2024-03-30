@@ -18,16 +18,33 @@
     min-width: 55vw;
 }
 .event-details{
+    border-radius: 9px;
     box-shadow: 0 3px 10px rgb(0,0,0,0.2);
     width: 35vw;
+}
+
+.event-details-desktop{
+    border-radius: 9px;
+    box-shadow: 0 3px 10px rgb(0,0,0,0.2);
+    width: 35vw;
+    background-color: white;
+    right: 0;
 }
 
 .about p{
     line-height: 180%;
 }
 
+#paymentForm{
+    text-align: left !important;
+}
+
+.razorpay-payment-button.svelte-ohbfj8{
+    width: 100%;
+}
+
 .PaymentButton.svelte-ekc7fv.svelte-ekc7fv{
-    width: 14rem !important;
+    width: 100% !important;
     border-radius: 5px;
 }
 
