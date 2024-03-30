@@ -10,9 +10,12 @@ import EventCard from "./Components/EventCard";
 // import Button from "../../Components/Button";
 import Footer from "../../Components/Footer";
 import Image from "next/image";
+import Head from "next/head";
+
 import posterDesktop from "../../../public/hoot_desktop.png";
 import posterMobile from "../../../public/hoot_mobile.png";
 import scrollDown from "../../../public/scrollDown.svg";
+
 
 export default function Home() {
 
