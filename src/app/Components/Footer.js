@@ -1,21 +1,25 @@
 import './Footer.css';
-import logo from "../../public/OnlyBees_logo.svg"
 import Image from 'next/image';
 import Link from 'next/link';
 
+import dark from "../../../public/OnlyBees_dark.svg";
+import light from "../../../public/OnlyBees_light.svg";
 // social logos
-import facebook from "../../public/Facebook_black.svg"
-import instagram from "../../public/Instagram_black.svg"
-import linkedIn from "../../public/LinkedIN_black.svg"
+import facebookDark from "../../../public/Facebook_black.svg"
+import instagramDark from "../../../public/Instagram_black.svg"
+import linkedInDark from "../../../public/LinkedIN_black.svg"
+import facebookLight from "../../../public/Facebook_white.svg"
+import instagramLight from "../../../public/Instagram_white.svg"
+import linkedInLight from "../../../public/LinkedIN_white.svg"
 // import whatsapp from "../../public/Whatsapp_black.svg"
 
 
-const Footer = () => {
+const Footer = (props) => {
     return (
         <div className='mx-5 lg:mx-10 pb-5'>
-            <div className='foot flex flex-col lg:flex-row lg:gap-40 lg:px-28'>
+            <div className={`border-b border-t ${props.mode == "dark" ? "border-white" : "border-black"} foot flex flex-col lg:flex-row lg:gap-40 lg:px-28`}>
                 <Image
-                    src={logo}
+                    src={(props.mode == "dark") ? light : dark}
                     width={500}
                     height="auto"
                     alt='OnlyBees logo'
@@ -45,8 +49,8 @@ const Footer = () => {
                     </div>
                     <div className='flex lg:justify-start justify-center lg:gap-4 gap-5'>
                         <Link href="https://www.onlybees.in/" rel="noopener noreferrer" target="_blank">
-                            <Image 
-                                src={facebook}
+                            <Image
+                                src={(props.mode == "dark") ? facebookLight : facebookDark}
                                 width={25}
                                 height="auto"
                                 alt='social logo'
@@ -54,8 +58,8 @@ const Footer = () => {
                             />
                         </Link>
                         <Link href="https://www.instagram.com/onlybees.in/" rel="noopener noreferrer" target="_blank">
-                            <Image 
-                                src={instagram}
+                            <Image
+                                src={(props.mode == "dark") ? instagramLight : instagramDark}
                                 width={25}
                                 height="auto"
                                 alt='social logo'
@@ -63,8 +67,8 @@ const Footer = () => {
                             />
                         </Link>
                         <Link href="https://www.linkedin.com/company/onlybees/" rel="noopener noreferrer" target="_blank">
-                            <Image 
-                                src={linkedIn}
+                            <Image
+                                src={(props.mode == "dark") ? linkedInLight : linkedInDark}
                                 width={25}
                                 height="auto"
                                 alt='social logo'

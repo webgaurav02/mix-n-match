@@ -1,4 +1,4 @@
-import './styles.css';
+import './globals.css';
 
 const page = () => {
   return (
