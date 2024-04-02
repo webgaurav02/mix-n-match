@@ -78,7 +78,7 @@ const EventDetails = () => {
                     <div className="scroll-about-text">
                         <h3 className="lg:text-right ml-2 text-xl font-bold leading-10">About</h3>
                         <div className="overflow-scroll about-text p-4 rounded-2xl">
-                            <p className="leading-7">
+                            <p className="lg:text-right leading-7">
                                 Introducing <span className="text-[#00FF38]">Hoot Society</span> - your dynamic event powerhouse in Northeast India. Driven by youth and fueled by determination, our team is dedicated to curating top-tier events for diverse audiences. With strong PR and networking skills, we&apos;re on a mission to revolutionize Meghalaya&apos;s nightlife scene, blending entertainment, music, and culture to create unforgettable experiences.
                                 Join us as we push boundaries and redefine event standards in Northeast India. Experience the magic of Hoot Society and let us elevate your events to new heights
                                 Introducing &quot;Mix N Match&quot; - an innovative event IP poised to revolutionize Meghalaya&apos;s nightlife scene with a vibrant fusion of Hip-Hop, R&B, and Afrobeats music. Prepare to be immersed in an unparalleled audiovisual journey.
@@ -104,8 +104,8 @@ const EventDetails = () => {
 
                     <div className="btn-container flex lg:flex-row flex-col p-7 lg:gap-10 gap-5 bg-[#1e1e1e] justify-center rounded-3xl">
                         <div className="leading-0 price">
-                            <p className="font-semibold lg:text-[0.6rem] text-[0.8rem] lg:ml-0 ml-2">STARTING</p>
-                            <p className="font-semibold lg:text-4xl text-6xl">499</p>
+                            <p className="font-semibold lg:text-[0.6rem] text-[0.8rem] lg:ml-0">STARTING</p>
+                            <p className="font-semibold lg:text-4xl text-6xl">&#8377;499</p>
                         </div>
                         <div className='bg-[#00FF38] pt-2 pb-0 px-4 rounded-full btn-inner-container'>
                             {mounted ? <form id="paymentForm"></form> : <p className='text-center font-bold py-3 px-6 text-black'>loading....</p>}
