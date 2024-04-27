@@ -15,18 +15,13 @@ body {
 }
 
 .home-page{
-  background-color: black;
+  background-color: white;
   min-height: 100svh;
-  background-image: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.0)
-  ),
-  url(../../public/chi.png);
-  background-position: center;
-  background-size: contain;
+  background-image: url(../../public/BeesLogoBg.png);
+  background-position: top;
+  background-size: 25%;
   background-repeat: no-repeat;
-  color: white;
+  color: black;
   overflow: hidden;
 }
 
@@ -77,6 +72,13 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+
+  .home-page{
+
+    background-position: top;
+    background-size: contain;
+  }
+
   .poster{
       min-width: 100%;
   }

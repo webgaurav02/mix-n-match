@@ -6,20 +6,33 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Mix N Match - Hoot Society",
-  description: "Introducing \"Mix N Match\" - an innovative event IP poised to revolutionize Meghalaya's nightlife scene with a vibrant fusion of Hip-Hop, R&B, and Afrobeats music. Prepare to be immersed in an unparalleled audiovisual journey. At the heart of our mission is bridging the gap between local talent and national luminaries. We strive to spotlight the rich pool of talent within Meghalaya while also featuring renowned artists from across the nation. Through collaboration and adedicated platform, \"Mix N Match\" serves as a catalyst for artistic advancement and cultural exchange. With a steadfast commitment to excellence, every facet of the event is meticulously curated to ensure an unforgettable experience for all attendees.",
+  title: "Onlybees Events",
+  description: "Discover and book tickets for the most exciting DJ nights, college events, and music concerts. Explore events, book tickets, and create unforgettable memories with OnlyBees!",
   keywords: [
-      "Mix N Match event", "Hoot Society", "Meghalaya nightlife", "music festival in Meghalaya",
+      "OnlyBees", "event booking", "DJ nights", "college events", "music concerts", "tickets", "Meghalaya nightlife", "music festival in Meghalaya",
       "Hip-Hop and R&B", "Afrobeats music", "local talent in Meghalaya", "national artists in India",
       "live music event", "cultural exchange", "audiovisual experience", "entertainment in Meghalaya",
       "upcoming music festivals", "music events in India"
   ],
+  og: {
+    title: "OnlyBees - Discover Amazing Events",
+    type: "website",
+    url: "https://event.onlybees.in",
+    image: "https://event.onlybees.in/_next/static/media/chi.1d6dc5ad.png",
+    description: "Join OnlyBees to find and book tickets for the best DJ nights, college events, and music concerts near you."
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@OnlyBees",
+    title: "OnlyBees - Your Premier Event Booking Platform",
+    description: "Book your next adventure with OnlyBees! Discover DJ nights, college events, and music concerts.",
+    image: "https://event.onlybees.in/_next/static/media/chi.1d6dc5ad.png"
+  },
+  author: "Gaurav Joshi",
   date: "2024-05-20",
   location: "Shillong, Meghalaya, India",
   tags: ["Music Festival", "Nightlife", "Live Performance", "Cultural Event"],
-  organizer: "Onlybees Hoot Society",
   audience: "Music enthusiasts, Party-goers, Cultural explorers, Local and National artists",
-  socialMediaHashtags: ["#MixNMatchHootSociety", "#MeghalayaMusicFest", "#HootSocietyEvents"],
 };
 
 export default function RootLayout({ children }) {
