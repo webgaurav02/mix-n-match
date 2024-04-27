@@ -18,7 +18,7 @@ export const metadata = {
     title: "OnlyBees - Discover Amazing Events",
     type: "website",
     url: "https://event.onlybees.in",
-    image: "https://event.onlybees.in/_next/static/media/chi.1d6dc5ad.png",
+    image: "https://event.onlybees.in/_next/static/media/BeesLogoBg.4731db90.png",
     description: "Join OnlyBees to find and book tickets for the best DJ nights, college events, and music concerts near you."
   },
   twitter: {
@@ -26,7 +26,7 @@ export const metadata = {
     site: "@OnlyBees",
     title: "OnlyBees - Your Premier Event Booking Platform",
     description: "Book your next adventure with OnlyBees! Discover DJ nights, college events, and music concerts.",
-    image: "https://event.onlybees.in/_next/static/media/chi.1d6dc5ad.png"
+    image: "https://event.onlybees.in/_next/static/media/BeesLogoBg.4731db90.png"
   },
   author: "Gaurav Joshi",
   date: "2024-05-20",
