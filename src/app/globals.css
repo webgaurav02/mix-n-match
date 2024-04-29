@@ -50,6 +50,10 @@ body {
   text-align: left !important;
 }
 
+.PaymentButton-text{
+  font-size: 0.7rem !important;
+}
+
 .razorpay-payment-button.svelte-ohbfj8{
   width: 100%;
 }
