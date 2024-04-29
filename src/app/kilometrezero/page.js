@@ -13,30 +13,23 @@ export const metadata = {
         "Responsible Sourcing", "Carbon Footprint Reduction", "Nature Connection", "Cultural Appreciation", "Inner Exploration",
         "Holistic Well-being", "Artistic Expression", "Storytelling", "Food and Art Fusion", "Innovation", "Connection", "Inspiration"
     ],
+    twitter: {
+        card: "summary_large_image",
+        site: "@OnlyBees",
+        title: "Kilometre Zero - An art and food affair",
+        description: "Book your tickets into Kilometre Zero with OnlyBees!",
+    },
     date: "2024-05-20",
     location: "Ri Bhoi, Meghalaya, India",
     tags: ["Art Festival", "Sustainability", "Culinary Experience", "Cultural Exploration"],
     organizer: "Onlybees",
     audience: "Art Enthusiasts, Sustainability Advocates, Food Connoisseurs, Cultural Explorers",
     socialMediaHashtags: ["#KilometreZeroArt", "#SustainabilityEvent", "#ArtandCulinaryExperience", "#CulturalExploration"],
-    ogImage: "https://event.onlybees.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fc1.9dbc23e3.png&w=1920&q=75"
 };
 
 export default function Event() {
     return (
         <>
-            <Head>
-                <title>{metadata.title}</title>
-                <meta name="description" content={metadata.description} />
-                <meta name="keywords" content={metadata.keywords.join(', ')} />
-                <meta property="og:title" content={metadata.title} />
-                <meta property="og:description" content={metadata.description} />
-                <meta property="og:image" content="https://event.onlybees.in/_next/static/media/BeesLogoBg.4731db90.png" />
-                {/* Add more og tags as needed */}
-                <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://event.onlybees.in/kilometrezero" />
-                <meta name="twitter:card" content="summary_large_image" />
-            </Head>
             <Navbar mode="dark" />
             <EventDetails />
             <Footer mode="dark" />

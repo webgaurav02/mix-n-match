@@ -18,7 +18,6 @@ export const metadata = {
     title: "OnlyBees - Discover Amazing Events",
     type: "website",
     url: "https://event.onlybees.in",
-    image: "https://event.onlybees.in/_next/static/media/BeesLogoBg.4731db90.png",
     description: "Join OnlyBees to find and book tickets for the best DJ nights, college events, and music concerts near you."
   },
   twitter: {
@@ -26,14 +25,12 @@ export const metadata = {
     site: "@OnlyBees",
     title: "OnlyBees - Your Premier Event Booking Platform",
     description: "Book your next adventure with OnlyBees! Discover DJ nights, college events, and music concerts.",
-    image: "https://event.onlybees.in/_next/static/media/BeesLogoBg.4731db90.png"
   },
   author: "Gaurav Joshi",
   date: "2024-05-20",
   location: "Shillong, Meghalaya, India",
   tags: ["Music Festival", "Nightlife", "Live Performance", "Cultural Event"],
   audience: "Music enthusiasts, Party-goers, Cultural explorers, Local and National artists",
-  ogImage: "https://event.onlybees.in/_next/static/media/BeesLogoBg.4731db90.png"
 };
 
 export default function RootLayout({ children }) {
