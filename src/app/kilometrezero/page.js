@@ -6,6 +6,17 @@ import Head from "next/head";
 
 
 export const metadata = {
+    metadataBase: new URL('https://event.onlybees.in'),
+    alternates: {
+        canonical: '/',
+        languages: {
+            'en-US': '/en-US',
+            'de-DE': '/de-DE',
+        },
+    },
+    openGraph: {
+        images: '/kilometrezero/opengraph-image.png',
+    },
     title: "Kilometre Zero - An art and food affair",
     description: "Immerse yourself in an extraordinary art collaborative event, where sustainability meets artistic expression, and culinary creativity intertwines with personal growth.",
     keywords: [
