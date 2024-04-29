@@ -33,6 +33,7 @@ export const metadata = {
   location: "Shillong, Meghalaya, India",
   tags: ["Music Festival", "Nightlife", "Live Performance", "Cultural Event"],
   audience: "Music enthusiasts, Party-goers, Cultural explorers, Local and National artists",
+  ogImage: "https://event.onlybees.in/_next/static/media/BeesLogoBg.4731db90.png"
 };
 
 export default function RootLayout({ children }) {

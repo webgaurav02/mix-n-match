@@ -18,7 +18,8 @@ export const metadata = {
     tags: ["Art Festival", "Sustainability", "Culinary Experience", "Cultural Exploration"],
     organizer: "Onlybees",
     audience: "Art Enthusiasts, Sustainability Advocates, Food Connoisseurs, Cultural Explorers",
-    socialMediaHashtags: ["#KilometreZeroArt", "#SustainabilityEvent", "#ArtandCulinaryExperience", "#CulturalExploration"]
+    socialMediaHashtags: ["#KilometreZeroArt", "#SustainabilityEvent", "#ArtandCulinaryExperience", "#CulturalExploration"],
+    ogImage: "https://event.onlybees.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fc1.9dbc23e3.png&w=1920&q=75"
 };
 
 export default function Event() {
@@ -30,7 +31,7 @@ export default function Event() {
                 <meta name="keywords" content={metadata.keywords.join(', ')} />
                 <meta property="og:title" content={metadata.title} />
                 <meta property="og:description" content={metadata.description} />
-                <meta property="og:image" content="/public/c1.png" />
+                <meta property="og:image" content="https://event.onlybees.in/_next/static/media/BeesLogoBg.4731db90.png" />
                 {/* Add more og tags as needed */}
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://event.onlybees.in/kilometrezero" />

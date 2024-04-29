@@ -4,9 +4,9 @@ import React, { useState, useEffect } from 'react';
 import "./EventDetails.css";
 
 import flyer from "../../../public/c1.png"
-import c2 from "../../../public/c2.png"
-import c3 from "../../../public/c3.png"
-import c4 from "../../../public/c4.png"
+import c2 from "../../../public/c2.jpeg"
+import c3 from "../../../public/c3.jpeg"
+import c4 from "../../../public/c4.jpeg"
 
 import Image from "next/image";
 
