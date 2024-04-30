@@ -97,7 +97,7 @@ const EventDetails = () => {
                     <div className="flyer aspect-w-1 aspect-h-1">
                         <Image
                             src={flyer}
-                            priority
+                            loading='lazy'
                             width={900}
                             height="auto"
                             alt="Event Flyer"
@@ -118,21 +118,21 @@ const EventDetails = () => {
             </div>
             <Image
                 src={c2}
-                priority
+                loading='lazy'
                 width={900}
                 height="auto"
                 alt="Event Flyer"
             />
             <Image
                 src={c3}
-                priority
+                loading='lazy'
                 width={900}
                 height="auto"
                 alt="Event Flyer"
             />
             <Image
                 src={c4}
-                priority
+                loading='lazy'
                 width={900}
                 height="auto"
                 alt="Event Flyer"
