@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 
 import "./EventDetails.css";
 
-import flyer from "../../../public/hoot.png"
+import flyer from "../../../public/mm11.jpg"
 
 
 import Image from "next/image";
@@ -21,7 +21,7 @@ const EventDetails = () => {
             "src",
             "https://checkout.razorpay.com/v1/payment-button.js"
         );
-        Script.setAttribute("data-payment_button_id", "pl_Nrt2TGD923RDhP");
+        Script.setAttribute("data-payment_button_id", "pl_O6Q1NXwqKfEjzx");
         if (Form) {
             Form.appendChild(Script);
         }
@@ -68,7 +68,7 @@ const EventDetails = () => {
                     <div className="p-0 leading-8">
                         <h2 className="lg:ml-0 ml-3 lg:text-right text-left text-5xl font-bold mb-2">MIX N MATCH</h2>
                         <p className="lg:ml-0 ml-3 lg:text-right text-left font-light">The Yeastern Civilization</p>
-                        {<h3 className="lg:ml-0 ml-3 lg:text-right text-left text-xl text-[#00FF38]">Sat, Apr 6, 9:00 PM <span className="font-light text-sm">{isMobile?<br />:""}GMT +5:30</span></h3>}
+                        {<h3 className="lg:ml-0 ml-3 lg:text-right text-left text-xl text-[#00FF38]">Sat, May 11, 9:00 PM <span className="font-light text-sm">{isMobile?<br />:""}GMT +5:30</span></h3>}
                         <div className="lg:ml-0 ml-3 flex lg:gap-16 gap-10 lg:justify-end">
                             {/* <p>Tag</p> */}
                             <p>Shillong</p>
@@ -105,9 +105,9 @@ const EventDetails = () => {
                     <div className="btn-container flex lg:flex-row flex-col p-7 lg:gap-10 gap-4 bg-[#1e1e1e] justify-center rounded-3xl">
                         <div className="leading-0 price">
                             <p className="font-semibold lg:text-[0.6rem] text-[0.8rem] lg:ml-0">STARTING</p>
-                            <p className="font-semibold lg:text-4xl text-6xl">&#8377;499</p>
+                            <p className="font-semibold lg:text-4xl text-6xl">&#8377;598</p>
                         </div>
-                        <div className='bg-[#00FF38] pt-2 pb-0 px-1 rounded-full btn-inner-container'>
+                        <div className='bg-[#00FF38] pt-2 pb-0 px-2 rounded-full btn-inner-container'>
                             {mounted ? <form id="paymentForm"></form> : <p className='text-center font-bold py-3 px-6 text-black'>loading....</p>}
                         </div>
                     </div>

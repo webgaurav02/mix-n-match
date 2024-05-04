@@ -15,8 +15,9 @@ export const metadata = {
         },
     },
     openGraph: {
-        images: '/kilometrezero/opengraph-image.png',
-    },
+        title: "Kilometre Zero - An art and food affair",
+        description: "Book your tickets into Kilometre Zero with OnlyBees!",
+      },
     title: "Kilometre Zero - An art and food affair",
     description: "Immerse yourself in an extraordinary art collaborative event, where sustainability meets artistic expression, and culinary creativity intertwines with personal growth.",
     keywords: [
