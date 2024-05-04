@@ -109,7 +109,7 @@ const EventDetails = () => {
                             <p className="font-semibold lg:text-[0.6rem] text-[0.8rem] lg:ml-0">STARTING</p>
                             <p className="font-semibold lg:text-4xl text-6xl">&#8377;1800</p>
                         </div>
-                        <div className='bg-[#00FF38] pt-2 pb-0 px-1 rounded-full btn-inner-container'>
+                        <div className='bg-[#00FF38] pt-2 pb-0 px-2 rounded-full btn-inner-container'>
                             {mounted ? <form id="paymentForm"></form> : <p className='text-center font-bold py-3 px-6 text-black'>loading....</p>}
                         </div>
                     </div>
