@@ -13,6 +13,7 @@ export const metadata = {
       },
   },
   openGraph: {
+    images: "/opengraph-hoot.jpeg",
     title: "Mix N Match - Hoot Society",
     description: "Book your tickets for Mix N Match - Hoot Society",
   },

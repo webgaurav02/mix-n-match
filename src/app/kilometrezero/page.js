@@ -15,6 +15,7 @@ export const metadata = {
         },
     },
     openGraph: {
+        images: "/c1.png",
         title: "Kilometre Zero - An art and food affair",
         description: "Book your tickets into Kilometre Zero with OnlyBees!",
       },
