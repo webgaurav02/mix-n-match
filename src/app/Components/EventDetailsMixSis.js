@@ -79,10 +79,10 @@ const EventDetails = () => {
                         <h3 className="lg:text-right ml-2 text-xl font-bold leading-10">About</h3>
                         <div className="overflow-scroll about-text p-4 rounded-2xl">
                             <p className="lg:text-right leading-7">&#34;The Mix&#39;sis&#34; is not just an event; it&#39;s a celebration of diversity, talent, and inclusivity in the realm of music. With an all-female DJ lineup, it&#39;s a platform where women can shine, showcasing their unique styles and favorite genres, from pulsating techno beats to soulful house melodies. Each DJ brings her own flair, creating an electrifying atmosphere that captivates the audience and keeps them moving all night long.</p>
-                            <br />
+                            {/* <br />
                             <p className="lg:text-right leading-7">But &#34;The Mix&#39;sis&#34; is more than just music; it&#39;s a sanctuary, a safe space where everyone can freely express themselves without fear of judgment. It&#39;s a community where differences are celebrated, and individuality is embraced. Here, people can be their true selves, surrounded by the empowering sounds of talented female DJs who inspire and uplift with every track they drop.</p>
                             <br />
-                            <p className="lg:text-right leading-7">As the music fills the air and the crowd pulses with energy, &#34;The Mix&#39;sis&#34; transcends beyond just an event; it becomes a movement, a beacon of empowerment and unity. Through the power of music, it fosters connections, breaks down barriers, and reminds us all of the strength found in diversity. So come join the celebration, dance to the beat of your own drum, and experience the magic of &#34;The Mix&#39;sis&#34;.</p>
+                            <p className="lg:text-right leading-7">As the music fills the air and the crowd pulses with energy, &#34;The Mix&#39;sis&#34; transcends beyond just an event; it becomes a movement, a beacon of empowerment and unity. Through the power of music, it fosters connections, breaks down barriers, and reminds us all of the strength found in diversity. So come join the celebration, dance to the beat of your own drum, and experience the magic of &#34;The Mix&#39;sis&#34;.</p> */}
                         </div>
                     </div>
                 </div>
