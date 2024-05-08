@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /admin
+Disallow: /checkout
+
+Sitemap: https://event.onlybees.in/api/sitemap.xml
