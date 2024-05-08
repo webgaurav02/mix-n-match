@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 
-import "./EventDetails.css";
+import "./EventDetailsAlchemy.css";
 
 import flyer from "../../../public/alchemy.jpeg"
 import location from "../../../public/location-dot-solid.svg"

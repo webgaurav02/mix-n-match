@@ -21,7 +21,7 @@ const EventDetails = () => {
             "src",
             "https://checkout.razorpay.com/v1/payment-button.js"
         );
-        Script.setAttribute("data-payment_button_id", "pl_O6Q1NXwqKfEjzx");
+        Script.setAttribute("data-payment_button_id", "pl_O83eRmIBvJC7FC");
         if (Form) {
             Form.appendChild(Script);
         }
@@ -83,12 +83,6 @@ const EventDetails = () => {
                             <p className="lg:text-right leading-7">But &#34;The Mix&#39;sis&#34; is more than just music; it&#39;s a sanctuary, a safe space where everyone can freely express themselves without fear of judgment. It&#39;s a community where differences are celebrated, and individuality is embraced. Here, people can be their true selves, surrounded by the empowering sounds of talented female DJs who inspire and uplift with every track they drop.</p>
                             <br />
                             <p className="lg:text-right leading-7">As the music fills the air and the crowd pulses with energy, &#34;The Mix&#39;sis&#34; transcends beyond just an event; it becomes a movement, a beacon of empowerment and unity. Through the power of music, it fosters connections, breaks down barriers, and reminds us all of the strength found in diversity. So come join the celebration, dance to the beat of your own drum, and experience the magic of &#34;The Mix&#39;sis&#34;.</p>
-
-
-
-
-
-
                         </div>
                     </div>
                 </div>
@@ -111,8 +105,11 @@ const EventDetails = () => {
                             <p className="font-semibold lg:text-[0.6rem] text-[0.8rem] lg:ml-0">STARTING</p>
                             <p className="font-semibold lg:text-4xl text-6xl">&#8377;500</p>
                         </div>
-                        <div className='bg-[#00FF38] pt-2 pb-0 px-2 rounded-full btn-inner-container'>
-                            {mounted ? <form id="paymentForm"></form> : <p className='text-center font-bold py-3 px-6 text-black'>loading....</p>}
+                        <div className="flex flex-col w-full">
+                            <p className='mb-2 font-semibold lg:text-[0.9rem] text-[1.2rem] ml-2'>PRESALE</p>
+                            <div className='bg-[#00FF38] pt-2 pb-0 px-2 rounded-full btn-inner-container'>
+                                {mounted ? <form id="paymentForm"></form> : <p className='text-center font-bold py-3 px-6 text-black'>loading....</p>}
+                            </div>
                         </div>
                     </div>
 
