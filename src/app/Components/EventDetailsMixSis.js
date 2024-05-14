@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import "./EventDetails.css";
 
 import flyer from "../../../public/mix-sis.png"
-
+import location from "../../../public/location-dot-solid.svg"
 
 import Image from "next/image";
 
@@ -67,7 +67,16 @@ const EventDetails = () => {
 
                     <div className="p-0 leading-8">
                         <h2 className="lg:ml-0 ml-3 lg:text-right text-left text-5xl font-bold mb-2">Mix&#39;sis</h2>
-                        <p className="lg:ml-0 ml-3 lg:text-right text-left font-light">Venue: tba</p>
+                        <div className='lg:ml-0 ml-3 flex flex-row lg:justify-end gap-2'>
+                            <Image
+                                src={location}
+                                priority
+                                width={10}
+                                height="auto"
+                                alt="Event Flyer"
+                            />
+                            <p className="lg:ml-0 lg:text-right text-left font-light">The Yeastern Civilization</p>
+                        </div>
                         {<h3 className="lg:ml-0 ml-3 lg:text-right text-left text-xl text-[#00FF38]">Fri, May 31, 9:00 PM <span className="font-light text-sm">{isMobile ? <br /> : ""}GMT +5:30</span></h3>}
                         <div className="lg:ml-0 ml-3 flex lg:gap-16 gap-10 lg:justify-end">
                             {/* <p>Tag</p> */}
@@ -77,8 +86,8 @@ const EventDetails = () => {
 
                     <div className="scroll-about-text">
                         <h3 className="lg:text-right ml-2 text-xl font-bold leading-10">About</h3>
-                        <div className="overflow-scroll about-text p-4 rounded-2xl">
-                            <p className="lg:text-right leading-7">&#34;The Mix&#39;sis&#34; is not just an event; it&#39;s a celebration of diversity, talent, and inclusivity in the realm of music. With an all-female DJ lineup, it&#39;s a platform where women can shine, showcasing their unique styles and favorite genres, from pulsating techno beats to soulful house melodies. Each DJ brings her own flair, creating an electrifying atmosphere that captivates the audience and keeps them moving all night long.</p>
+                        <div className="overflow-scroll about-text p-4 rounded-2xl h-full" style={{"height": "21rem !important"}}>
+                            <p className="lg:text-right leading-7">&#34;The Mix&#39;sis&#34; is not just an event; it&#39;s a celebration of diversity, talent, and inclusivity in the realm of music. <br /><br />With an all-female DJ lineup, it&#39;s a platform where women can shine, showcasing their unique styles and favorite genres, from pulsating techno beats to soulful house melodies.<br /><br />Each DJ brings her own flair, creating an electrifying atmosphere that captivates the audience and keeps them moving all night long.</p>
                             {/* <br />
                             <p className="lg:text-right leading-7">But &#34;The Mix&#39;sis&#34; is more than just music; it&#39;s a sanctuary, a safe space where everyone can freely express themselves without fear of judgment. It&#39;s a community where differences are celebrated, and individuality is embraced. Here, people can be their true selves, surrounded by the empowering sounds of talented female DJs who inspire and uplift with every track they drop.</p>
                             <br />
