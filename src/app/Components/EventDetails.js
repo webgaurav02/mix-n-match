@@ -104,8 +104,8 @@ const EventDetails = () => {
 
                     <div className="btn-container flex lg:flex-row flex-col p-7 lg:gap-10 gap-4 bg-[#1e1e1e] justify-center rounded-3xl">
                         <div className="leading-0 price">
-                            <p className="font-semibold lg:text-[0.6rem] text-[0.8rem] lg:ml-0">STARTING</p>
-                            <p className="font-semibold lg:text-4xl text-6xl">&#8377;598</p>
+                            <p className="font-semibold lg:text-[0.6rem] text-[0.8rem] lg:ml-0">PRESALE</p>
+                            <p className="font-semibold lg:text-4xl text-6xl">&#8377;500</p>
                         </div>
                         <div className='bg-[#00FF38] pt-2 pb-0 px-2 rounded-full btn-inner-container'>
                             {mounted ? <form id="paymentForm"></form> : <p className='text-center font-bold py-3 px-6 text-black'>loading....</p>}
