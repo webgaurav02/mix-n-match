@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Coolvetica';
+  src: url('/fonts/coolvetica rg.otf') format('truetype');
+}
+
 
 body {
   color: white;
@@ -16,11 +21,11 @@ body {
 
 .home-page{
   background-color: white;
-  min-height: 100svh;
-  background-image: url(../../public/BeesLogoBg.png);
-  background-position: top;
-  background-size: 25%;
-  background-repeat: no-repeat;
+  /* min-height: 90svh; */
+  /* background-image: url(../../public/BeesLogoBg.png); */
+  /* background-position: top; */
+  /* background-size: 25%; */
+  /* background-repeat: no-repeat; */
   color: black;
   overflow: hidden;
 }

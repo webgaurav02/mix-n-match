@@ -1,0 +1,36 @@
+{
+    "events": [
+        {
+            "title": "Mix'sis",
+            "date": "Fri, May 31",
+            "venue": "The Yeastern Civilization",
+            "price": "₹500",
+            "image": "/mix-sis.png",
+            "route": "mixsis"
+        },
+        {
+            "title": "Mix N Match",
+            "date": "Sat, May 11",
+            "venue": "The Yeastern Civilization",
+            "price": "₹598",
+            "image": "/mm11.jpg",
+            "route": "hoot"
+        },
+        {
+            "title": "Kilometre Zero",
+            "date": "Sat, May 11",
+            "venue": "Linsamer Farms",
+            "price": "₹1800",
+            "image": "/c1.png",
+            "route": "kilometrezero"
+        },
+        {
+            "title": "ZOKHUMA by Alchemy",
+            "date": "Sat, May 11",
+            "venue": "NYX Lounge & Deck",
+            "price": "₹500",
+            "image": "/alchemy.jpeg",
+            "route": "alchemy"
+        }
+    ]
+}

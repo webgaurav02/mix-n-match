@@ -74,6 +74,7 @@ const EventDetails = () => {
                                 width={10}
                                 height="auto"
                                 alt="Event Flyer"
+                                style={{"borderRadius": "15px"}}
                             />
                             <p className="lg:ml-0 lg:text-right text-left font-light">The Yeastern Civilization</p>
                         </div>
