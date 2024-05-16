@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 
 import "./EventDetails.css";
 
-import flyer from "../../../public/mm11.jpg"
+import flyer from "../../../public/mm11.png"
 
 
 import Image from "next/image";
@@ -21,7 +21,7 @@ const EventDetails = () => {
             "src",
             "https://checkout.razorpay.com/v1/payment-button.js"
         );
-        Script.setAttribute("data-payment_button_id", "pl_O6Q1NXwqKfEjzx");
+        Script.setAttribute("data-payment_button_id", "pl_OBHD5EhNi8Jjhd");
         if (Form) {
             Form.appendChild(Script);
         }
@@ -68,7 +68,7 @@ const EventDetails = () => {
                     <div className="p-0 leading-8">
                         <h2 className="lg:ml-0 ml-3 lg:text-right text-left text-5xl font-bold mb-2">MIX N MATCH</h2>
                         <p className="lg:ml-0 ml-3 lg:text-right text-left font-light">The Yeastern Civilization</p>
-                        {<h3 className="lg:ml-0 ml-3 lg:text-right text-left text-xl text-[#00FF38]">Sat, May 11, 9:00 PM <span className="font-light text-sm">{isMobile?<br />:""}GMT +5:30</span></h3>}
+                        {<h3 className="lg:ml-0 ml-3 lg:text-right text-left text-xl text-[#00FF38]">Sat, Jun 15, 9:00 PM <span className="font-light text-sm">{isMobile?<br />:""}GMT +5:30</span></h3>}
                         <div className="lg:ml-0 ml-3 flex lg:gap-16 gap-10 lg:justify-end">
                             {/* <p>Tag</p> */}
                             <p>Shillong</p>
