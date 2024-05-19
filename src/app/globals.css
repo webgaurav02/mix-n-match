@@ -69,11 +69,11 @@ body {
 }
 
 .PaymentButton--dark.svelte-ekc7fv.svelte-ekc7fv{
-  background-color: #560D80 !important;
+  background-color: #00FF38 !important;
 }
 
 .PaymentButton--dark.svelte-ekc7fv.svelte-ekc7fv{
-  color: #FFDF01 !important;
+  color: black !important;
 }
 
 #paymentForm{
