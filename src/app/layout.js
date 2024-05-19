@@ -2,10 +2,8 @@
 import { Inter } from "next/font/google";
 
 import "./globals.css";
-import Navbar from "./Components/Navbar";
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Analytics } from "@vercel/analytics/react"
-import ClientLayout from "./Components/ClientLayout";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -56,9 +54,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ClientLayout>
           {children}
-        </ClientLayout>
         <SpeedInsights />
         <Analytics />
       </body>

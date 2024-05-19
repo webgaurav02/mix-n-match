@@ -1,7 +1,7 @@
-
+"use client";
 import { PropagateLoader } from 'react-spinners';
 
-const Spinner = () => {
+const loading = () => {
     return (
         <div className="spinner-container">
           <div className="spinner-background" />
@@ -37,5 +37,5 @@ const Spinner = () => {
       );
   };
   
-  export default Spinner;
+  export default loading;
   
