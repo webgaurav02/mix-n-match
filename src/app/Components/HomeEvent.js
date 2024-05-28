@@ -21,7 +21,7 @@ const HomeEvent = (props) => {
                     alt="Event Flyer"
                     style={{"boxShadow": "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px", "borderRadius": "8px"}}
                 />
-                <div className=' pl-2 text-left mt-2 font-medium font-blogger text-xl lg:text-2xl lg:leading-snug '>{props.title}</div>
+                <div className=' pl-2 text-left mt-2 font-semibold font-blogger text-xl lg:text-xl lg:leading-snug '>{props.title}</div>
                 <div className=' pl-2 text-left font-medium font-blogger opacity-70 text-[#3f362b] text-sm lg:text-sm lg:leading-snug '>{props.date}</div>
                 <div className=' pl-2 text-left font-medium font-blogger opacity-70 text-[#3f362b] text-sm lg:text-sm lg:leading-snug '>{props.venue}</div>
                 <div className=' pl-2 text-left font-medium font-blogger opacity-70 text-[#3f362b] text-sm lg:text-sm lg:leading-snug '>{props.price}</div>

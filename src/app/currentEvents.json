@@ -9,6 +9,13 @@
             "route": "mixsis"
         },
         {
+            "title": "B.A.D and Friends",
+            "date": "Thurs, June 06",
+            "venue": "The Evening Club",
+            "image": "/bad.png",
+            "route": "bad"
+        },
+        {
             "title": "Mix N Match",
             "date": "Sat, Jun 15",
             "venue": "The Yeastern Civilization",
