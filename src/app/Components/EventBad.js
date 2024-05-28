@@ -68,7 +68,7 @@ const EventDetails = () => {
                     <div className="p-0 leading-8">
                         <h2 className="lg:ml-0 ml-3 lg:text-right text-left text-5xl font-bold mb-2">B.A.D &amp; FRIENDS</h2>
                         <p className="lg:ml-0 ml-3 lg:text-right text-left font-light">The Evening Club</p>
-                        {<h3 className="lg:ml-0 ml-3 lg:text-right text-left text-xl text-[#00FF38]">Thurs, Jun 06, 9:00 PM <span className="font-light text-sm">{isMobile?<br />:""}GMT +5:30</span></h3>}
+                        {<h3 className="lg:ml-0 ml-3 lg:text-right text-left text-xl text-[#00FF38]">Thurs, Jun 06, 8:00 PM <span className="font-light text-sm">{isMobile?<br />:""}GMT +5:30</span></h3>}
                         <div className="lg:ml-0 ml-3 flex lg:gap-16 gap-10 lg:justify-end">
                             {/* <p>Tag</p> */}
                             <p>Shillong</p>
