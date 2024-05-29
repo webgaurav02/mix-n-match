@@ -17,7 +17,7 @@ const HomeEvent = (props) => {
                     width="0"
                     height="0"
                     sizes="100vw"
-                    className="h-full w-full object-cover"
+                    className="aspect-square h-full w-full object-cover"
                     alt="Event Flyer"
                     style={{"boxShadow": "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px", "borderRadius": "8px"}}
                 />
