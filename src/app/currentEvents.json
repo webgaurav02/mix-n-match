@@ -1,12 +1,12 @@
 {
     "events": [
         {
-            "title": "Mix'sis",
-            "date": "Fri, May 31",
+            "title": "Mix N Match",
+            "date": "Sat, Jun 15",
             "venue": "The Yeastern Civilization",
             "price": "₹500",
-            "image": "/mix-sis.png",
-            "route": "mixsis"
+            "image": "/mm11.png",
+            "route": "hoot"
         },
         {
             "title": "B.A.D and Friends",
@@ -16,12 +16,12 @@
             "route": "bad"
         },
         {
-            "title": "Mix N Match",
-            "date": "Sat, Jun 15",
+            "title": "Mix'sis",
+            "date": "Fri, May 31",
             "venue": "The Yeastern Civilization",
             "price": "₹500",
-            "image": "/mm11.png",
-            "route": "hoot"
+            "image": "/mix-sis.png",
+            "route": "mixsis"
         },
         {
             "title": "Kilometre Zero",
